@@ -1,4 +1,5 @@
 # 절대 커밋하지 말 것 (실수 방지용 안전망)
+.bkit/
 settings.local.json
 *.local.json
 **/projects/
