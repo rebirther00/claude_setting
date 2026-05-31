@@ -14,12 +14,20 @@ Claude Code **전역(user scope) 설정**을 Git으로 관리하는 저장소.
 | `settings.local.json` | 이 PC 전용 권한 경로 (비밀X, 기계 종속) | ❌ 제외 |
 | `plugins/cache`, `projects/` 등 | 재설치 가능 / 세션 기록(민감) | ❌ 제외 |
 
-## 포함된 플러그인 (settings.json 기준)
+## 포함된 플러그인 (settings.json 기준, 8개)
 
-- `bkit@bkit-marketplace` — popup-studio-ai/bkit-claude-code
-- `bkit-starter@bkit-marketplace` — 동일 마켓플레이스
-- `context7@claude-plugins-official` — anthropics 공식
-- `andrej-karpathy-skills@karpathy-skills` — forrestchang/andrej-karpathy-skills
+| 플러그인 | 마켓플레이스(출처) | 한줄 |
+|---|---|---|
+| `bkit` | popup-studio-ai/bkit-claude-code | PDCA 종합 개발 킷 |
+| `bkit-starter` | (동일) | 초보자 온보딩 |
+| `context7` | claude-plugins-official | 최신 라이브러리 문서 MCP |
+| `andrej-karpathy-skills` | forrestchang/andrej-karpathy-skills | 코딩 실수 방지 가이드 |
+| `watch` | bradautomates/claude-video | 영상 시청·요약 |
+| `frontend-design` | claude-plugins-official | 고품질 프론트엔드 UI |
+| `superpowers` | claude-plugins-official | TDD·디버깅·플래닝 14종 |
+| `understand-anything` | Lum1104/Understand-Anything | 코드베이스 이해·시각화 |
+
+> 📖 각 스킬이 무엇이고 어떻게 쓰는지는 [SKILLS.md](./SKILLS.md) 참고.
 
 ## 새 PC에서 복원
 
