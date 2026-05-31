@@ -1,0 +1,12 @@
+# 절대 커밋하지 말 것 (실수 방지용 안전망)
+settings.local.json
+*.local.json
+**/projects/
+**/sessions/
+**/cache/
+**/shell-snapshots/
+**/file-history/
+**/history.jsonl
+**/.credentials*
+**/*token*
+**/*secret*

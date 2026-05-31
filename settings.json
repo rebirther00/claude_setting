@@ -1,0 +1,24 @@
+{
+  "enabledPlugins": {
+    "bkit@bkit-marketplace": true,
+    "bkit-starter@bkit-marketplace": true,
+    "context7@claude-plugins-official": true,
+    "andrej-karpathy-skills@karpathy-skills": true
+  },
+  "extraKnownMarketplaces": {
+    "bkit-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "popup-studio-ai/bkit-claude-code"
+      }
+    },
+    "karpathy-skills": {
+      "source": {
+        "source": "github",
+        "repo": "forrestchang/andrej-karpathy-skills"
+      }
+    }
+  },
+  "autoUpdatesChannel": "latest",
+  "effortLevel": "xhigh"
+}
